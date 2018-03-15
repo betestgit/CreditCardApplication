@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RuleTemplateInstance id="e16c80bf-279a-4460-876c-a2fac406136d" implementsPath="/Rule_Templates/SpecialOffers" priority="0">
+    <filter id="1454306336465322865893" matchType="Match Any">
+        <filter id="145430633646629542507" operator="greater than">
+            <link type="/Concepts/Applicant.concept" name="applicant"/>
+            <link type="int" name="Age"/>
+            <filterValue value="21"/>
+        </filter>
+    </filter>
+    <actions>
+        <command actionType="modify" type="/Concepts/CreditCard.concept" alias="card">
+            <filter id="1454306368057305860925" operator="set to">
+                <link type="double" name="InterestRate"/>
+                <filterValue value="10.75"/>
+            </filter>
+        </command>
+    </actions>
+</RuleTemplateInstance>

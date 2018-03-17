@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<RuleTemplateInstance id="48dd2515-bd85-4e82-b459-c13592462283" implementsPath="/Rule_Templates/Applicant_PreScreen" priority="0">
+<RuleTemplateInstance id="e42fc3cd-226b-46bd-9ccc-122475456058" implementsPath="/Rule_Templates/Applicant_PreScreen" priority="0">
     <actions/>
     <binding id="minimumIncome" value="21000"/>
     <binding id="minimumAge" value="21"/>

@@ -11,7 +11,7 @@
         <command actionType="modify" type="/Concepts/CreditCard.concept" alias="card">
             <filter id="1454306368057305860925" operator="set to">
                 <link type="double" name="InterestRate"/>
-                <filterValue value="10.75"/>
+                <filterValue value="10.80"/>
             </filter>
         </command>
     </actions>

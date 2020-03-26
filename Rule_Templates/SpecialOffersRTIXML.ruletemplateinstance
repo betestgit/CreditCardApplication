@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<RuleTemplateInstance id="e58d9e4f-3124-4c8a-b096-79301ef5919e" implementsPath="/Rule_Templates/SpecialOffers" priority="0">
+<RuleTemplateInstance id="e58d9e4f-3124-4c8a-b096-79301ef5919e" implementsPath="/Rule_Templates/SpecialOffers" priority="1" description="">
     <filter id="1454306336465322865893" matchType="Match Any">
         <filter id="145430633646629542507" operator="greater than">
             <link type="/Concepts/Applicant.concept" name="applicant"/>
             <link type="int" name="Age"/>
-            <filterValue value="21"/>
+            <filterValue value="22"/>
         </filter>
     </filter>
     <actions>

@@ -4,7 +4,7 @@
         <filter id="145430633646629542507" operator="greater than">
             <link type="/Concepts/Applicant.concept" name="applicant"/>
             <link type="int" name="Age"/>
-            <filterValue value="22"/>
+            <filterValue value="23"/>
         </filter>
     </filter>
     <actions>

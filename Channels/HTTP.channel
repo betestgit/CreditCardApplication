@@ -3,7 +3,7 @@
   <driver xsi:type="channel:HttpChannelDriverConfig" configMethod="REFERENCE" reference="/Channels/HTTPSharedConnection.sharedhttp" label="HTTP" channel="/">
     <destinations name="Destination" description="" GUID="C14F9D76-2D6F-8EEC-17A1-08292189A784" ownerProjectName="CreditCardApplication" serializerDeserializerClass="com.tibco.cep.driver.http.serializer.RESTMessageSerializer" driverConfig="//@driver">
       <properties>
-        <properties xsi:type="designtime:SimpleProperty" name="be.http.PageFlow" value="true"/>
+        <properties xsi:type="designtime:SimpleProperty" name="be.http.type" value="PAGEFLOW"/>
         <properties xsi:type="designtime:SimpleProperty" name="be.http.contextPath" value="/cc/invoke"/>
         <properties xsi:type="designtime:SimpleProperty" name="be.http.pageFlowFunction" value="/Rule_Functions/Callback"/>
       </properties>

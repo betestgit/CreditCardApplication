@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<cluster xmlns="http://tibco.com/businessevents/configuration/5.5">
+<cluster xmlns="http://tibco.com/businessevents/configuration/5.6">
     <revision>
-        <version>10</version>
+        <version>8</version>
         <author>vpatil</author>
-        <date>2018/03/05 20:04:23</date>
+        <date>2015/03/30 16:02:14</date>
         <comment/>
     </revision>
     <name>CreditCardApplication</name>
@@ -63,7 +63,6 @@
                 <pre-load-enabled>false</pre-load-enabled>
                 <pre-load-fetch-size>0</pre-load-fetch-size>
                 <pre-load-handles>false</pre-load-handles>
-                <concept-ttl>-1</concept-ttl>
                 <domain-object>
                     <mode>memory</mode>
                     <uri>/Concepts/Applicant</uri>
@@ -86,7 +85,6 @@
                         <index/>
                     </indexes>
                     <encryption/>
-                    <composite-indexes/>
                 </domain-object>
             </domain-objects>
         </cache-manager>
@@ -200,8 +198,7 @@
             <cache-storage-enabled>true</cache-storage-enabled>
             <db-concepts>false</db-concepts>
             <property-group>
-                <property name="be.cluster.ruletemplateinstances.deploy.dir" value="[[TIBCO_BE_HOME]]/rms/shared/CreditCardApplication"/>
-                <property name="be.engine.cluster.externalClasses.path" value="[[TIBCO_BE_HOME]]/rms/shared/CreditCardApplication/Decision_Tables"/>
+                <property name="be.cluster.ruletemplateinstances.deploy.dir" value="D:/Installation/BE_HOME/561GA/be/5.6/rms/shared/CreditCardApplication"/>
             </property-group>
         </processing-unit>
         <processing-unit id="cache">
@@ -226,8 +223,8 @@
     <property-group>
         <property-group comment="" name="auth">
             <property name="be.mm.auth.type" value="file"/>
-            <property name="be.mm.auth.file.location" value="[[TIBCO_BE_HOME]]/mm/config/users.pwd"/>
-            <property name="java.security.auth.login.config" value="[[TIBCO_BE_HOME]]/mm/config/jaas-config.config"/>
+            <property name="be.mm.auth.file.location" value="D:/Installation/BE_HOME/561GA/be/5.6/mm/config/users.pwd"/>
+            <property name="java.security.auth.login.config" value="D:/Installation/BE_HOME/561GA/be/5.6/mm/config/jaas-config.config"/>
         </property-group>
     </property-group>
 </cluster>
